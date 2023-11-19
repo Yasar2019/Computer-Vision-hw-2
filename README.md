@@ -185,40 +185,35 @@ The histogram is plotted with the specified title, and labels are added for the 
 The histogram is saved as an image file with the given filename.
 
 The plot is then closed to free up resources.
-
-
-
-In this section, you can find the original and the results images.
+*************************
+## In this section, you can find the original and the results images.
 
 **Original images:**
+</br>
 ![original image](/test_img/noise1.png "Noise1")
-
+</br>
 ![original image](/test_img/noise2.png)
 
 **Filtered images using Mean Filter:**
+</br>
 ![filtered image](/result_img/noise1_q1.png "Noise1")
-
-![filtered image](/test_img/noise2_q1.png)
+</br>
+![filtered image](/result_img/noise2_q1.png)
 
 **Filtered images using Median Filter:**
+</br>
 ![filtered image](/result_img/noise1_q2.png "Noise1")
-
-![filtered image](/test_img/noise2_q2.png)
-************************
+</br>
+![filtered image](/result_img/noise2_q2.png "Noise2")
 
 Please note that we could get rid of all the salt and paper noise by choosing a bigger kernel’s size, but the resulting image would be blurred and with missing features. Thus, I choose to keep the kernel size to 3.
-
-
-
-
-
-**Histograms****:**
+************************
+## In this section, you can find the different generated histogram of pixel intenisty that help us understand more about the effects of each filter.
+**Histograms:**
 
 **First image:**
 
-****************************************************************************************************************************
-
-
+![hist image](/result_img/noise1_his.png "Noise1"), ![hist image](/result_img/noise1_q1_his.png "Noise1"), ![hist image](/result_img/noise1_q2_his.png "Noise1")
 
 **Observations from the Histograms**
 
@@ -250,11 +245,9 @@ The median filter tends to be more effective in reducing 'salt and pepper' noise
 
 
 
-**Second image****:**
+**Second image:**
 
-****************************************************************************************************************************
-
-
+![hist image](/result_img/noise2_his.png "Noise1"), ![hist image](/result_img/noise2_q1_his.png "Noise1"), ![hist image](/result_img/noise2_q2_his.png "Noise1")
 
 **Observations from the Histograms**
 
